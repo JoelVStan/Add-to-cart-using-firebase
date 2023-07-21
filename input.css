@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .input-class{
+        @apply text-center bg-gray-input text-slate-800 border-none rounded-md p-[15px] text-[20px] w-72 font-normal my-[10px] mx-0
+    }
+}
