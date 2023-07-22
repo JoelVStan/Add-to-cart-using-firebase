@@ -8,4 +8,7 @@
     .input-class{
         @apply text-center bg-gray-input text-slate-800 border-none rounded-md p-[15px] text-[20px] w-72 font-normal my-[10px] mx-0
     }
+    .hover-list{
+        @apply hover:bg-red hover:text-list-bg hover:cursor-pointer
+    }
 }
